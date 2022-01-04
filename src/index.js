@@ -157,3 +157,38 @@
 // // =で代入すると元の値が変わってしまうのでだめ。
 // const arr8 = arr4;
 // console.log(arr8);
+
+/**
+ * mapやfilterを使った配列の処理
+ */
+
+const nameArr = ["田中", "山田", "OB"];
+//  for (let index = 0; index <nameArr.length; index++)
+// {
+//   console.log(`${index + 1}番めは、${nameArr[index]}です`)
+// }
+
+// const nameArr2 = nameArr.map((name)=>{
+//   return name
+// })
+// console.log(nameArr2)
+
+// 第二引数を指定するとindexを使用できる
+// nameArr.map((name,index) => console.log(`${index + 1}番めは、${nameArr[index]}です` ))
+
+// const numArr = [1, 2, 3, 4, 5];
+// const newNumArr = numArr.filter((num)=> {
+//   return num % 2 === 0;
+// });
+
+// console.log(newNumArr);
+
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "OB") {
+//     return name + "くん";
+//   } else {
+//     return `${name}さま`;
+//   }
+// });
+
+// console.log(newNameArr);
